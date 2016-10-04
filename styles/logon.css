@@ -1,0 +1,67 @@
+.slide1{
+  background-image: url('../images/images-appstore.jpg');
+  height: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.slide2{
+  background-image: url('../images/background-wrapper.jpg');
+  height: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.slide3{
+  background-image: url('../images/background-rolledup-magazines.jpg');
+  height: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.slide4{
+  background-image: url('../images/magazines-mobile.jpg');
+  height: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.slide5{
+  background-image: url('../images/newsmag.jpg');
+  height: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.carousel-caption h1{
+  font-size: 1.4em;
+  font-family: 'Pacifico', cursive;
+  padding-bottom: 0.4em;
+}
+.carousel-caption p{
+  font-size: 1.5em;
+}
+#myCarousel{
+  margin-top: 50px;
+}
+.login-wrapper{
+  margin-left: 350px;
+  width: 400px;
+  height: 430px;
+  border-top-left-radius:5px;
+  border-top-right-radius:5px;
+  border-bottom-left-radius:5px;
+  border-bottom-right-radius:5px;
+  padding:20px;
+  border-bottom:1px solid #eee;
+  border-left:1px solid #eee;
+  border-top:1px solid #eee;
+  border-right:2px solid #eee;
+}
+.align-header{
+  margin-top: 5px;
+  text-align: center;
+}
+.navbar-bg{
+  background-color: rgba(234,234,234,1);
+}

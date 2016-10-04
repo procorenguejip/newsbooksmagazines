@@ -1,0 +1,14 @@
+.nav-custom-style{
+  background-color: green;
+  border: 1px solid #fff;
+}
+
+#bs-example-navbar-collapse-1 > ul > li > a{
+  color: #fff;
+}
+
+.navbar-menu{
+  margin-top: -18px;
+  margin-left: 25%;
+  width: 50%;
+}
