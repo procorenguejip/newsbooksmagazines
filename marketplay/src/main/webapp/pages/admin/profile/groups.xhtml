@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+    
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:ui="http://java.sun.com/jsf/facelets"
+    xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:f="http://java.sun.com/jsf/core"
+    xmlns:p="http://primefaces.org/ui">
+    <h:head>
+        <title>Dashboard</title>
+        <script name="jquery/jquery.js" library="primefaces"></script>
+    </h:head>
+    <h:body>
+    <div style="height:500px">
+        
+	    <p:dataTable var="groupMap" value="#{groupList}">
+			<f:facet name="header">
+				List of Cars
+			</f:facet>
+			<p:column>
+				<f:facet name="header">
+					Model
+				</f:facet>
+					#{groupMap.groupName}
+				<f:facet name="footer">
+					8 digit code
+				</f:facet>
+			</p:column>
+			<p:column headerText="Year" footerText="2016">
+				#{car.year}
+			</p:column>
+				//more columns
+			<f:facet name="footer">
+				In total there are #{fn:length(groupMap)} cars.
+			</f:facet>
+		</p:dataTable>
+		        
+        
+        </div>
+    </h:body>
+</html>
