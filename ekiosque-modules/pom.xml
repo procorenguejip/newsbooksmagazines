@@ -1,0 +1,34 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.newsbooksmagazines</groupId>
+    <artifactId>newsbooksmagazines</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <artifactId>ekiosque-modules</artifactId>
+  <name>ekiosque-modules</name>
+  <version>${ek-core-modules.version}</version>
+  
+  <properties>
+	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	
+  </properties>
+  
+  <dependencies>
+
+	<!-- ek-core-model -->
+	<dependency>
+		<groupId>com.newsbooksmagazines</groupId>
+		<artifactId>ekiosque-model</artifactId>
+		<version>${ek-core-model.version}</version>
+	</dependency>
+	
+	<dependency>
+		<groupId>javax.mail</groupId>
+		<artifactId>mail</artifactId>
+		<version>1.4.5</version>
+	</dependency>
+	
+	</dependencies>
+  
+</project>
